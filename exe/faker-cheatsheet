@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby -w
+# vi:ft=ruby
+require 'faker/cheatsheet'
+Faker::Cheatsheet.print_all
