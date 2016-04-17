@@ -7,315 +7,295 @@
   </head>
   <body>
     <h1 id="faker-cheatsheet">Faker Cheatsheet</h1>
-    <h2 id="cheatsheet">Cheatsheet</h2>
-    <h2 id="config">Config</h2>
-    <ul>
-    <li>locale</li>
-    <li>own_locale</li>
-    <li>locale=</li>
-    </ul>
-    <h2 id="base">Base</h2>
-    <ul>
-    <li>method_missing</li>
-    <li>fetch</li>
-    <li>translate</li>
-    <li>parse</li>
-    <li>numerify</li>
-    <li>letterify</li>
-    <li>bothify</li>
-    <li>regexify</li>
-    <li>with_locale</li>
-    <li>flexible</li>
-    <li>rand_in_range</li>
-    </ul>
-    <h2 id="address">Address</h2>
-    <ul>
-    <li>zip</li>
-    <li>state</li>
-    <li>city</li>
-    <li>street_name</li>
-    <li>street_address</li>
-    <li>secondary_address</li>
-    <li>building_number</li>
-    <li>zip_code</li>
-    <li>time_zone</li>
-    <li>postcode</li>
-    <li>street_suffix</li>
-    <li>city_suffix</li>
-    <li>city_prefix</li>
-    <li>state_abbr</li>
-    <li>country</li>
-    <li>country_code</li>
-    <li>latitude</li>
-    <li>longitude</li>
-    </ul>
-    <h2 id="cat">Cat</h2>
-    <ul>
-    <li>name</li>
-    <li>breed</li>
-    <li>registry</li>
-    </ul>
-    <h2 id="code">Code</h2>
-    <ul>
-    <li>npi</li>
-    <li>isbn</li>
-    <li>ean</li>
-    <li>rut</li>
-    <li>nric</li>
-    </ul>
-    <h2 id="color">Color</h2>
-    <ul>
-    <li>hex_color</li>
-    <li>color_name</li>
-    <li>single_rgb_color</li>
-    <li>rgb_color</li>
-    <li>single_hsl_color</li>
-    <li>alpha_channel</li>
-    <li>hsl_color</li>
-    <li>hsla_color</li>
-    </ul>
-    <h2 id="company">Company</h2>
-    <ul>
-    <li>name</li>
-    <li>suffix</li>
-    <li>industry</li>
-    <li>catch_phrase</li>
-    <li>buzzword</li>
-    <li>bs</li>
-    <li>ein</li>
-    <li>duns_number</li>
-    <li>logo</li>
-    <li>swedish_organisation_number</li>
-    <li>profession</li>
-    </ul>
-    <h2 id="university">University</h2>
-    <ul>
-    <li>name</li>
-    <li>prefix</li>
-    <li>suffix</li>
-    </ul>
-    <h2 id="finance">Finance</h2>
-    <ul>
-    <li>credit_card</li>
-    </ul>
-    <h2 id="internet">Internet</h2>
-    <ul>
-    <li>email</li>
-    <li>url</li>
-    <li>user_name</li>
-    <li>domain_name</li>
-    <li>free_email</li>
-    <li>safe_email</li>
-    <li>password</li>
-    <li>domain_word</li>
-    <li>domain_suffix</li>
-    <li>fix_umlauts</li>
-    <li>mac_address</li>
-    <li>ip_v4_address</li>
-    <li>public_ip_v4_address</li>
-    <li>ip_v4_cidr</li>
-    <li>ip_v6_address</li>
-    <li>ip_v6_cidr</li>
-    <li>slug</li>
-    <li>device_token</li>
-    </ul>
-    <h2 id="lorem">Lorem</h2>
-    <ul>
-    <li>words</li>
-    <li>character</li>
-    <li>characters</li>
-    <li>word</li>
-    <li>sentence</li>
-    <li>sentences</li>
-    <li>paragraph</li>
-    <li>paragraphs</li>
-    </ul>
-    <h2 id="name">Name</h2>
-    <ul>
-    <li>name</li>
-    <li>prefix</li>
-    <li>suffix</li>
-    <li>first_name</li>
-    <li>last_name</li>
-    <li>title</li>
-    </ul>
-    <h2 id="team">Team</h2>
-    <ul>
-    <li>name</li>
-    <li>state</li>
-    <li>creature</li>
-    </ul>
-    <h2 id="phonenumber">PhoneNumber</h2>
-    <ul>
-    <li>extension</li>
-    <li>phone_number</li>
-    <li>cell_phone</li>
-    <li>area_code</li>
-    <li>exchange_code</li>
-    <li>subscriber_number</li>
-    </ul>
-    <h2 id="business">Business</h2>
-    <ul>
-    <li>credit_card_number</li>
-    <li>credit_card_expiry_date</li>
-    <li>credit_card_type</li>
-    </ul>
-    <h2 id="commerce">Commerce</h2>
-    <ul>
-    <li>color</li>
-    <li>department</li>
-    <li>product_name</li>
-    <li>material</li>
-    <li>price</li>
-    </ul>
-    <h2 id="version">VERSION</h2>
-    <h2 id="number">Number</h2>
-    <ul>
-    <li>digit</li>
-    <li>number</li>
-    <li>non_zero_digit</li>
-    <li>leading_zero_number</li>
-    <li>decimal_part</li>
-    <li>decimal</li>
-    <li>hexadecimal</li>
-    <li>between</li>
-    <li>positive</li>
-    <li>negative</li>
-    </ul>
-    <h2 id="bitcoin">Bitcoin</h2>
-    <ul>
-    <li>address</li>
-    <li>address_for</li>
-    <li>testnet_address</li>
-    <li>base58</li>
-    </ul>
-    <h2 id="avatar">Avatar</h2>
-    <ul>
-    <li>image</li>
-    </ul>
-    <h2 id="placeholdit">Placeholdit</h2>
-    <ul>
-    <li>image</li>
-    </ul>
-    <h2 id="date">Date</h2>
-    <ul>
-    <li>birthday</li>
-    <li>between</li>
-    <li>between_except</li>
-    <li>forward</li>
-    <li>backward</li>
-    </ul>
-    <h2 id="time">Time</h2>
-    <ul>
-    <li>between</li>
-    <li>forward</li>
-    <li>backward</li>
-    </ul>
-    <h2 id="hacker">Hacker</h2>
-    <ul>
-    <li>say_something_smart</li>
-    <li>phrases</li>
-    <li>abbreviation</li>
-    <li>adjective</li>
-    <li>noun</li>
-    <li>verb</li>
-    <li>ingverb</li>
-    </ul>
-    <h2 id="app">App</h2>
-    <ul>
-    <li>name</li>
-    <li>version</li>
-    <li>author</li>
-    </ul>
-    <h2 id="idnumber">IDNumber</h2>
-    <ul>
-    <li>invalid</li>
-    <li>valid</li>
-    <li>ssn_valid</li>
-    </ul>
-    <h2 id="slackemoji">SlackEmoji</h2>
-    <ul>
-    <li>people</li>
-    <li>nature</li>
-    <li>food_and_drink</li>
-    <li>celebration</li>
-    <li>activity</li>
-    <li>travel_and_places</li>
-    <li>objects_and_symbols</li>
-    <li>custom</li>
-    <li>emoji</li>
-    </ul>
-    <h2 id="book">Book</h2>
-    <ul>
-    <li>author</li>
-    <li>title</li>
-    <li>publisher</li>
-    <li>genre</li>
-    </ul>
-    <h2 id="hipster">Hipster</h2>
-    <ul>
-    <li>words</li>
-    <li>word</li>
-    <li>sentence</li>
-    <li>sentences</li>
-    <li>paragraph</li>
-    <li>paragraphs</li>
-    </ul>
-    <h2 id="shakespeare">Shakespeare</h2>
-    <ul>
-    <li>hamlet_quote</li>
-    <li>hamlet</li>
-    <li>as_you_like_it_quote</li>
-    <li>as_you_like_it</li>
-    <li>king_richard_iii_quote</li>
-    <li>king_richard_iii</li>
-    <li>romeo_and_juliet_quote</li>
-    <li>romeo_and_juliet</li>
-    </ul>
-    <h2 id="superhero">Superhero</h2>
-    <ul>
-    <li>name</li>
-    <li>prefix</li>
-    <li>suffix</li>
-    <li>power</li>
-    <li>descriptor</li>
-    </ul>
-    <h2 id="beer">Beer</h2>
-    <ul>
-    <li>name</li>
-    <li>style</li>
-    <li>hop</li>
-    <li>yeast</li>
-    <li>malts</li>
-    <li>ibu</li>
-    <li>alcohol</li>
-    <li>blg</li>
-    </ul>
-    <h2 id="boolean">Boolean</h2>
-    <ul>
-    <li>boolean</li>
-    </ul>
-    <h2 id="starwars">StarWars</h2>
-    <ul>
-    <li>quote</li>
-    <li>character</li>
-    <li>characters</li>
-    <li>droid</li>
-    <li>droids</li>
-    <li>planet</li>
-    <li>planets</li>
-    <li>quotes</li>
-    <li>specie</li>
-    <li>species</li>
-    <li>vehicle</li>
-    <li>vehicles</li>
-    </ul>
-    <h2 id="char">Char</h2>
-    <ul>
-    <li>prepare</li>
-    <li>fix_umlauts</li>
-    <li>romanize_cyrillic</li>
-    </ul>
+<h2 id="address">Address</h2>
+<ul>
+<li>zip</li>
+<li>state</li>
+<li>city</li>
+<li>street_name</li>
+<li>street_address</li>
+<li>secondary_address</li>
+<li>building_number</li>
+<li>zip_code</li>
+<li>time_zone</li>
+<li>postcode</li>
+<li>street_suffix</li>
+<li>city_suffix</li>
+<li>city_prefix</li>
+<li>state_abbr</li>
+<li>country</li>
+<li>country_code</li>
+<li>latitude</li>
+<li>longitude</li>
+</ul>
+<h2 id="cat">Cat</h2>
+<ul>
+<li>name</li>
+<li>breed</li>
+<li>registry</li>
+</ul>
+<h2 id="code">Code</h2>
+<ul>
+<li>npi</li>
+<li>isbn</li>
+<li>ean</li>
+<li>rut</li>
+<li>nric</li>
+</ul>
+<h2 id="color">Color</h2>
+<ul>
+<li>hex_color</li>
+<li>color_name</li>
+<li>single_rgb_color</li>
+<li>rgb_color</li>
+<li>single_hsl_color</li>
+<li>alpha_channel</li>
+<li>hsl_color</li>
+<li>hsla_color</li>
+</ul>
+<h2 id="company">Company</h2>
+<ul>
+<li>name</li>
+<li>suffix</li>
+<li>industry</li>
+<li>catch_phrase</li>
+<li>buzzword</li>
+<li>bs</li>
+<li>ein</li>
+<li>duns_number</li>
+<li>logo</li>
+<li>swedish_organisation_number</li>
+<li>profession</li>
+</ul>
+<h2 id="university">University</h2>
+<ul>
+<li>name</li>
+<li>prefix</li>
+<li>suffix</li>
+</ul>
+<h2 id="finance">Finance</h2>
+<ul>
+<li>credit_card</li>
+</ul>
+<h2 id="internet">Internet</h2>
+<ul>
+<li>email</li>
+<li>url</li>
+<li>user_name</li>
+<li>domain_name</li>
+<li>free_email</li>
+<li>safe_email</li>
+<li>password</li>
+<li>domain_word</li>
+<li>domain_suffix</li>
+<li>fix_umlauts</li>
+<li>mac_address</li>
+<li>ip_v4_address</li>
+<li>public_ip_v4_address</li>
+<li>ip_v4_cidr</li>
+<li>ip_v6_address</li>
+<li>ip_v6_cidr</li>
+<li>slug</li>
+<li>device_token</li>
+</ul>
+<h2 id="lorem">Lorem</h2>
+<ul>
+<li>words</li>
+<li>character</li>
+<li>characters</li>
+<li>word</li>
+<li>sentence</li>
+<li>sentences</li>
+<li>paragraph</li>
+<li>paragraphs</li>
+</ul>
+<h2 id="name">Name</h2>
+<ul>
+<li>name</li>
+<li>prefix</li>
+<li>suffix</li>
+<li>first_name</li>
+<li>last_name</li>
+<li>title</li>
+</ul>
+<h2 id="team">Team</h2>
+<ul>
+<li>name</li>
+<li>state</li>
+<li>creature</li>
+</ul>
+<h2 id="phonenumber">PhoneNumber</h2>
+<ul>
+<li>extension</li>
+<li>phone_number</li>
+<li>cell_phone</li>
+<li>area_code</li>
+<li>exchange_code</li>
+<li>subscriber_number</li>
+</ul>
+<h2 id="business">Business</h2>
+<ul>
+<li>credit_card_number</li>
+<li>credit_card_expiry_date</li>
+<li>credit_card_type</li>
+</ul>
+<h2 id="commerce">Commerce</h2>
+<ul>
+<li>color</li>
+<li>department</li>
+<li>product_name</li>
+<li>material</li>
+<li>price</li>
+</ul>
+<h2 id="number">Number</h2>
+<ul>
+<li>digit</li>
+<li>number</li>
+<li>non_zero_digit</li>
+<li>leading_zero_number</li>
+<li>decimal_part</li>
+<li>decimal</li>
+<li>hexadecimal</li>
+<li>between</li>
+<li>positive</li>
+<li>negative</li>
+</ul>
+<h2 id="bitcoin">Bitcoin</h2>
+<ul>
+<li>address</li>
+<li>address_for</li>
+<li>testnet_address</li>
+<li>base58</li>
+</ul>
+<h2 id="avatar">Avatar</h2>
+<ul>
+<li>image</li>
+</ul>
+<h2 id="placeholdit">Placeholdit</h2>
+<ul>
+<li>image</li>
+</ul>
+<h2 id="date">Date</h2>
+<ul>
+<li>birthday</li>
+<li>between</li>
+<li>between_except</li>
+<li>forward</li>
+<li>backward</li>
+</ul>
+<h2 id="time">Time</h2>
+<ul>
+<li>between</li>
+<li>forward</li>
+<li>backward</li>
+</ul>
+<h2 id="hacker">Hacker</h2>
+<ul>
+<li>say_something_smart</li>
+<li>phrases</li>
+<li>abbreviation</li>
+<li>adjective</li>
+<li>noun</li>
+<li>verb</li>
+<li>ingverb</li>
+</ul>
+<h2 id="app">App</h2>
+<ul>
+<li>name</li>
+<li>version</li>
+<li>author</li>
+</ul>
+<h2 id="idnumber">IDNumber</h2>
+<ul>
+<li>invalid</li>
+<li>valid</li>
+<li>ssn_valid</li>
+</ul>
+<h2 id="slackemoji">SlackEmoji</h2>
+<ul>
+<li>people</li>
+<li>nature</li>
+<li>food_and_drink</li>
+<li>celebration</li>
+<li>activity</li>
+<li>travel_and_places</li>
+<li>objects_and_symbols</li>
+<li>custom</li>
+<li>emoji</li>
+</ul>
+<h2 id="book">Book</h2>
+<ul>
+<li>author</li>
+<li>title</li>
+<li>publisher</li>
+<li>genre</li>
+</ul>
+<h2 id="hipster">Hipster</h2>
+<ul>
+<li>words</li>
+<li>word</li>
+<li>sentence</li>
+<li>sentences</li>
+<li>paragraph</li>
+<li>paragraphs</li>
+</ul>
+<h2 id="shakespeare">Shakespeare</h2>
+<ul>
+<li>hamlet_quote</li>
+<li>hamlet</li>
+<li>as_you_like_it_quote</li>
+<li>as_you_like_it</li>
+<li>king_richard_iii_quote</li>
+<li>king_richard_iii</li>
+<li>romeo_and_juliet_quote</li>
+<li>romeo_and_juliet</li>
+</ul>
+<h2 id="superhero">Superhero</h2>
+<ul>
+<li>name</li>
+<li>prefix</li>
+<li>suffix</li>
+<li>power</li>
+<li>descriptor</li>
+</ul>
+<h2 id="beer">Beer</h2>
+<ul>
+<li>name</li>
+<li>style</li>
+<li>hop</li>
+<li>yeast</li>
+<li>malts</li>
+<li>ibu</li>
+<li>alcohol</li>
+<li>blg</li>
+</ul>
+<h2 id="boolean">Boolean</h2>
+<ul>
+<li>boolean</li>
+</ul>
+<h2 id="starwars">StarWars</h2>
+<ul>
+<li>quote</li>
+<li>character</li>
+<li>characters</li>
+<li>droid</li>
+<li>droids</li>
+<li>planet</li>
+<li>planets</li>
+<li>quotes</li>
+<li>specie</li>
+<li>species</li>
+<li>vehicle</li>
+<li>vehicles</li>
+</ul>
+<h2 id="char">Char</h2>
+<ul>
+<li>prepare</li>
+<li>fix_umlauts</li>
+<li>romanize_cyrillic</li>
+</ul>
+
+
   </body>
 </html>
 
