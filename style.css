@@ -1,0 +1,16 @@
+body {
+  background-color: #eee;
+  color: #999;
+  font-family: serif;
+  padding: 3em;
+}
+
+ol {
+}
+
+li {
+  font-style: italic;
+  list-style: none;
+  display: inline-block;
+  margin: 0.5em;
+}
