@@ -8,6 +8,7 @@ module Faker
       puts "# Faker Cheatsheet"
       puts
       Faker.constants.each do |k|
+        next if %i[Cheatsheet Config Base VERSION].include?(k)
         puts "## #{k}"
         puts
         c = Faker.const_get(k)
